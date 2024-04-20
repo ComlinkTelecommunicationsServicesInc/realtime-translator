@@ -1,0 +1,21 @@
+{
+  "name": "realtime-translator",
+  "version": "0.0.1",
+  "description": "jambonz websocket application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/translate": "^8.1.0",
+    "@jambonz/node-client-ws": "^0.1.42",
+    "pino": "^8.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
