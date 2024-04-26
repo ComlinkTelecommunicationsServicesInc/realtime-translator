@@ -1,0 +1,9 @@
+{
+  "port": 3000,
+  "target_agent": [
+    {
+      "type": "user",
+      "name": "amit2@cloud.mvoipctsi.com"
+    }
+  ]
+}

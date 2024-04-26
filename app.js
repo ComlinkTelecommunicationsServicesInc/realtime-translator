@@ -1,8 +1,9 @@
 const {createServer} = require('http');
 const {createEndpoint} = require('@jambonz/node-client-ws');
+const { WS_PORT } = require('./lib/utils/config');
 const server = createServer();
 const logger = require('pino')({level: process.env.LOGLEVEL || 'info'});
-const port = process.env.WS_PORT || 3000;
+const port = WS_PORT || 3000;
 const makeService = createEndpoint({server, logger});
 
 require('./lib/routes')({logger, makeService});
