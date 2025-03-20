@@ -1,9 +1,9 @@
 {
-  "port": 4003,
+  "port": 9982,
   "target_agent": [
     {
       "type": "user",
-      "name": "amit2@cloud.mvoipctsi.com"
+      "name": "amit2@sip.cpaas2.mvoipctsi.com"
     }
   ]
 }

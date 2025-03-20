@@ -13,7 +13,8 @@
     "@google-cloud/translate": "^8.1.0",
     "@jambonz/node-client-ws": "^0.1.42",
     "config": "^3.3.11",
-    "pino": "^8.19.0"
+    "pino": "^8.19.0",
+    "undici": "^6.21.2"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
